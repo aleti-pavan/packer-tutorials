@@ -28,10 +28,6 @@
             "echo here",
             "sudo apt-get install -y ansible"
         ]
-    },
-    {
-        "type": "ansible-local",
-        "playbook_file": "./scripts/example_ansible.yml"
     }
   ]
 }
