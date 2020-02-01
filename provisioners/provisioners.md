@@ -93,7 +93,16 @@ Copy the new `index.html` file
       {
     "type": "ansible-local",
     "playbook_file": "provisioners/ansible/apache-playbook.yml"
+    },
+    {
+    "type": "shell",
+    "script": "provisioners/ansible/cleanup.sh"
     }
 ]
 
 ```
+
+[Here's the example](./ansible-provisioner.json) with builder and ansible provisioner. [Full Example](https://github.com/aleti-pavan/packer-ansible-terraform-demo)
+
+
+Difference b/w `Ansible local` and `Ansible Remote` can be found in this document.
