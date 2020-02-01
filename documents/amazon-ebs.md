@@ -17,8 +17,16 @@ Required Configuration:
     `ami-name`
 
 3. Run Configuration
+   
    ```
    instance_type
    source_ami
    
    ```
+4. Communication Configuration
+    If using `ssh` value for `ssh_username` is required.
+
+    [Here's Basic Example](simple.json)
+
+
+    
