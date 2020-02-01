@@ -19,8 +19,8 @@ Required Configuration:
 3. Run Configuration
    
    ```
-   instance_type
    source_ami
+   instance_type
    
    ```
 4. Communication Configuration
