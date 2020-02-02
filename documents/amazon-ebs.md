@@ -21,7 +21,7 @@ Required Configuration:
    ```
    source_ami
    instance_type
-   
+
    ```
 4. Communication Configuration
     If using `ssh` value for `ssh_username` is required.
@@ -30,4 +30,6 @@ Required Configuration:
 
 
 
-    
+To create the packer image with the same name use `-force` option with `build`
+
+command : `packer build -force` _template.json_
